@@ -25,8 +25,3 @@ This project simulates batch reactor performance for **1st, 2nd, and 3rd order r
 
 
 
-## 📂 How to Run
-
-python first_order_simulation.py
-python second_order_simulation.py
-python third_order_simulation.py
