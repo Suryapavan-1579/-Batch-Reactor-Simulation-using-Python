@@ -1,24 +1,22 @@
-# -Batch-Reactor-Simulation-using-Python
+# 🔬 Batch Reactor Simulation using Python
 
-# 🧪 Batch Reactor Simulation using Python
-
-This project simulates chemical reactions in a **batch reactor** for different reaction orders (1st, 2nd, and 3rd order) using Python.
-
-It includes concentration and conversion vs time plots using **ODE solvers** and visualizations with **Matplotlib**.
+This project simulates batch reactor performance for **1st, 2nd, and 3rd order reactions** using Python. The aim is to analyze how reactant concentration and conversion vary with time 
 
 ## ✅ Features
 
-- Simulates:
-  - First-order reaction: `dC_A/dt = -k * C_A`
-  - Second-order reaction: `dC_A/dt = -k * C_A^2`
-  - Third-order reaction: `dC_A/dt = -k * C_A^3`
-- Calculates **conversion**: `X(t) = 1 - C_A/C_A0`
+- Solves ODEs for:
+  - First-order: (r_A = -kC_A)
+  - Second-order: (r_A = -kC_A**2)
+  - Third-order: ( r_A = -kC_A**3)
 - Plots:
-  - Concentration vs Time
-  - Conversion vs Time
-- Easy to modify rate constant `k`, initial concentration `C_A0`, and time range
+  - Concentration vs. Time
+  - Conversion vs. Time
+- Configurable:
+  - Initial concentration ( C_A_0)
+  - Rate constant (k)
+  - Time range (t)
 
-## 🔧 Tools & Libraries
+## 🧪 Tools Used
 
 - Python
 - NumPy
@@ -27,3 +25,8 @@ It includes concentration and conversion vs time plots using **ODE solvers** and
 
 
 
+## 📂 How to Run
+
+python first_order_simulation.py
+python second_order_simulation.py
+python third_order_simulation.py
