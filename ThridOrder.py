@@ -27,7 +27,7 @@ plt.subplot(1,2,1)
 plt.plot(t,C_A,"b-", linewidth=2, label="C_A(t)")
 plt.xlabel("Time[min]")
 plt.ylabel("Concentration[mol/L]")
-plt.title("Batch Reactor: Third Order Reaction")
+plt.title("Concentration vs Time")
 plt.grid(True)
 plt.legend()
 
